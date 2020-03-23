@@ -5,7 +5,7 @@ author: "michael.harris@abbvie.com"
 inputs:
   EMAIL:
     description: "Who to alert"
-    required: true
+    required: false
     default: "michael.harris@abbvie.com"
 
 runs:
