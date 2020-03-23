@@ -1,0 +1,17 @@
+name: "Email Action"
+description: "Send Email Alert"
+author: "michael.harris@abbvie.com"
+
+inputs:
+  EMAIL:
+    description: "Who to alert"
+    required: true
+    default: "michael.harris@abbvie.com"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
