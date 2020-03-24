@@ -1,3 +1,4 @@
 #!/bin/sh -l
 
-echo "hello world" | sendmail -s "a subject" michael.harris@abbvie.com
+sudo apt install mailutils
+echo "hello world" | mail -s "a subject" michael.harris@abbvie.com
