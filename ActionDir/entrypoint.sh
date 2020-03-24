@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
-apt install mailutils
-echo "hello world" | mail -s "a subject" michael.harris@abbvie.com
+apt  install mutt
+echo “testing message” | mutt -s "Testing Email" michael.harris@abbvie.com
