@@ -1,4 +1,5 @@
 #!/bin/sh -l
 
-apt install mailutils
+sudo apt-get update
+sudo apt-get install mailutils
 echo "message body" | mail -s "subject" test@example.com
