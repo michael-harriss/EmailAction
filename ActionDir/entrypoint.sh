@@ -1,3 +1,3 @@
 #!/bin/sh -l
-
-echo "message body" | mail -s "subject" $INPUT_EMAIL
+MESSAGE = "The Email Action directory has had a push"
+echo $MESSAGE | mail -s "subject" $INPUT_EMAIL
