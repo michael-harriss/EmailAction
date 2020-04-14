@@ -15,6 +15,11 @@ inputs:
     description: "What message is being sent"
     required: false
     default: "The Email Action directory has had a push"
+  SUBJECT:
+    description: "Subject of Email being sent"
+    required: false
+    default: "Email Action Push"
+  
   
 
 runs:
