@@ -3,10 +3,15 @@ description: "Send Email Alert"
 author: "michael.harris@abbvie.com"
 
 inputs:
-  EMAIL:
+  RECIPIENT:
     description: "Who to alert"
     required: false
     default: "michael.harris@abbvie.com"
+  SENDER:
+    description: "Who is sending the alert"
+    required: false
+    default: "michael.harris@abbvie.com"
+  
 
 runs:
   using: "docker"
