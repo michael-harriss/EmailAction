@@ -11,6 +11,10 @@ inputs:
     description: "Who is sending the alert"
     required: false
     default: "michael.harris@abbvie.com"
+  MESSAGE:
+    description: "What message is being sent"
+    required: false
+    default: "The Email Action directory has had a push"
   
 
 runs:
