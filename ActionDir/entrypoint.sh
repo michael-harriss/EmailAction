@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-echo "message body" | mail -s "subject" test@example.com
+echo "message body" | mail -s "subject" $INPUT_EMAIL
